@@ -21,18 +21,18 @@ function App() {
   }, [locationSelected])
   
   return (
-    <div>
-      <h1>Rick and Morty.</h1>
+    <div className='app'>
+      <h1 className='app_title'>Rick and Morty.</h1>
       <FormSearch setLocationSelected={setLocationSelected}/>
       {
         hasError
-          ? <h2>🧰Oops!! You must provide an id from 1 to 126😢 </h2>
+          ? <h2 className='app_error'>🧰Oops!! You must provide an id from 1 to 126😢 </h2>
           : (
             <>
               <LocationInfo 
                 location = {location}
               />
-              <div>
+              <div className='container_resident'>
               {
                 location?.residents.map((urlResident) => {
                   return <ResidentCard

@@ -1,0 +1,18 @@
+.app {
+  background-color: #073138;
+  color: white;
+}
+
+.app_title {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container_resident {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
