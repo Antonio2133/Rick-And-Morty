@@ -3,7 +3,7 @@
   max-width: 350px;
   border-radius: 0.8em;
   overflow: hidden;
-  background-color: #062226;
+  background-color: #0684fa;
   transition: transform 150ms ease;
   &:hover {
     transform: scale(1.05);
@@ -23,7 +23,7 @@
   width: 40%;
   padding: 0.4em 1em;
   gap: 0.8em;
-  background-color: #062226;
+  background-color: #0684fa;
   border-radius: 0 0.5em 0.5em 0;
 }
 
@@ -31,15 +31,18 @@
   width: 1em;
   aspect-ratio: 1;
   border-radius: 50%;
-  background-color: #aaa;
+  background-color: #423f3f;
+  
 }
 
 .Alive {
-  background-color: rgb(70, 146, 56);
+  background-color: rgb(15, 92, 1);
+  
 }
 
 .Dead {
-  background-color: rgb(194, 25, 25);
+  background-color: rgb(241, 8, 8);
+  
 } 
 
 .resident_body {
@@ -54,7 +57,7 @@
 .resident_hr {
   margin-top: 1em;
   margin-bottom: 1.5em;
-  border-color: rgba(170, 170, 170, 0.123);
+  border-color: rgba(3, 138, 248, 0.603);
 }
 
 .resident_list {
@@ -70,6 +73,6 @@
 
 .resident_label {
   padding-left: 1em;
-  color: #aaaa;
+  color: #161515;
   font-weight: 500;
 }

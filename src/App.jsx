@@ -5,6 +5,7 @@ import getRandomNumber from './services/getRandomNumber'
 import LocationInfo from './components/LocationInfo'
 import ResidentCard from './components/ResidentCard'
 import FormSearch from './components/FormSearch.jsx'
+import Nav from './components/Nav.jsx'
 
 
 
@@ -22,13 +23,14 @@ function App() {
   
   return (
     <div className='app'>
-      <h1 className='app_title'>Rick and Morty.</h1>
+      <Nav/>
       <FormSearch setLocationSelected={setLocationSelected}/>
       {
         hasError
           ? <h2 className='app_error'>🧰Oops!! You must provide an id from 1 to 126😢 </h2>
           : (
             <>
+              
               <LocationInfo 
                 location = {location}
               />

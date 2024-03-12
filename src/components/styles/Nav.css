@@ -1,0 +1,13 @@
+.nav_container {
+  display: grid;
+  place-items: center; 
+  padding-bottom: 35px; 
+}
+
+.logo {
+  width: 500px;
+  align-self: center;
+}
+
+
+

@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 500px;
   border-radius: 0.8em;
-  background-color: #062226;
+  background-color: #0684fa;
   padding: 1.5em 2em 2em;
   margin-left: auto;
   margin-right: auto;
@@ -11,7 +11,7 @@
 
 .location_name {
   text-align: center;
-  color: rgb(66, 185, 66);
+  color: rgb(255, 255, 255);
   font-size: 1.8rem;
   margin-bottom: 0.8em;
 }
@@ -34,6 +34,6 @@
 }
 
 .location_value {
-  color: #999;
+  color: #111010;
   font-weight: 300;
 }
